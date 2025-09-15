@@ -1,3 +1,7 @@
+-- data - is row information that is collected to be organized and analayzed to get insights for business. 
+-- database - is organized collection of data
+-- relation database - is one that stores data in tables
+-- table - is fundamental database object used to store and organize data within a relational database 
 
 --Relational database engine/High availability and disaster recovery/Advanced security/Data integration and Warehousing/ Big data integration.
 
