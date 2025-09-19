@@ -62,9 +62,8 @@ create table car_renting(carID int identity (100, 10), car_type varchar (50), co
 
 create table OrderDetails (CustomerID int, OrderID int, FirstName varchar (50), LastName varchar (50), branch varchar (50 ), Primary key (CustomerID, OrderID))
 
-
-21 
-
+--ISNULL and COALESCE are functions used to handle NULL values. They act like a mask, replacing NULL with a specified value in the result. 
+--The difference is that ISNULL works with a single expression, while COALESCE can evaluate multiple expressions and return the first non-NULL value
 
 
 create table Employees (EmpID int primary key, email varchar(50) unique, constraint uk_email unique (email))
